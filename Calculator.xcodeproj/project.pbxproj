@@ -12,6 +12,8 @@
 		9DE2DCB421D6F8A3001B37B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE2DCB221D6F8A3001B37B1 /* Main.storyboard */; };
 		9DE2DCB621D6F8A3001B37B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE2DCB521D6F8A3001B37B1 /* Assets.xcassets */; };
 		9DE2DCB921D6F8A3001B37B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE2DCB721D6F8A3001B37B1 /* LaunchScreen.storyboard */; };
+		9DE2DCC121D717D7001B37B1 /* VCR_OSD_MONO_1.001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DE2DCC021D717D7001B37B1 /* VCR_OSD_MONO_1.001.ttf */; };
+		9DE2DCC521D759C5001B37B1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DE2DCC421D759C5001B37B1 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9DE2DCB521D6F8A3001B37B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE2DCB821D6F8A3001B37B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE2DCBA21D6F8A3001B37B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE2DCC021D717D7001B37B1 /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VCR_OSD_MONO_1.001.ttf; sourceTree = "<group>"; };
+		9DE2DCC421D759C5001B37B1 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		9DE2DCAD21D6F8A2001B37B1 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				9DE2DCC021D717D7001B37B1 /* VCR_OSD_MONO_1.001.ttf */,
+				9DE2DCC421D759C5001B37B1 /* btn.wav */,
 				9DE2DCAE21D6F8A2001B37B1 /* AppDelegate.swift */,
 				9DE2DCB021D6F8A2001B37B1 /* ViewController.swift */,
 				9DE2DCB221D6F8A3001B37B1 /* Main.storyboard */,
@@ -124,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE2DCC521D759C5001B37B1 /* btn.wav in Resources */,
 				9DE2DCB921D6F8A3001B37B1 /* LaunchScreen.storyboard in Resources */,
+				9DE2DCC121D717D7001B37B1 /* VCR_OSD_MONO_1.001.ttf in Resources */,
 				9DE2DCB621D6F8A3001B37B1 /* Assets.xcassets in Resources */,
 				9DE2DCB421D6F8A3001B37B1 /* Main.storyboard in Resources */,
 			);
